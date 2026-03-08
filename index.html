@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6366f1">
+    
+    <title>Eleva Digital | Especialista em Sites Jurídicos e Alta Performance</title>
+    <meta name="description" content="Engenharia digital em Mongaguá. Especialista em sites para advogados e grandes eventos. Criadores do projeto Miss Mongaguá.">
+    
+    <link rel="canonical" href="https://elevadigital.com.br/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Eleva Digital | O Próximo Nível do Seu Negócio">
+    <meta property="og:description" content="Desenvolvimento de elite com AWS e Supabase em Mongaguá.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://wa.me">
+    <link rel="preload" as="script" href="https://cdn.tailwindcss.com">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://elevadigital.com.br/#localbusiness",
+          "name": "Eleva Digital",
+          "image": "https://elevadigital.com.br/logo.png",
+          "telePhone": "+5513992074922",
+          "email": "elevadigital013@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Agenor de Campos",
+            "addressLocality": "Mongaguá",
+            "addressRegion": "SP",
+            "postalCode": "11730-000",
+            "addressCountry": "BR"
+          },
+          "url": "https://elevadigital.com.br/",
+          "sameAs": [
+            "https://www.instagram.com/elevadigitaloficial"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "52"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Um site para advogados é permitido pela OAB?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim. Desenvolvemos sites com caráter estritamente informativo e sóbrio, respeitando o Provimento 205/2021 da OAB para garantir autoridade sem ferir a ética profissional."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "O site é seguro contra quedas em grandes eventos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Utilizamos infraestrutura AWS (Amazon Web Services), a mesma tecnologia de gigantes como Netflix, garantindo que projetos como o Miss Mongaguá suportem milhares de acessos simultâneos."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root { --brand-indigo: #6366f1; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #020617; color: #f8fafc; }
+        h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
+        .text-gradient { background: linear-gradient(135deg, #fff 30%, #818cf8 70%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .bg-grid { background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.03) 1px, transparent 0); background-size: 40px 40px; }
+        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .faq-item.active .faq-content { max-height: 200px; padding-bottom: 2rem; }
+        .faq-item.active i { transform: rotate(180deg); }
+        .animate-marquee { display: flex; width: max-content; animation: marquee 40s linear infinite; }
+        @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    </style>
+</head>
+<body class="bg-grid">
+
+    <nav class="fixed w-full z-50 top-0 glass border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-extrabold tracking-tighter flex items-center gap-2" aria-label="Eleva Digital Home">
+                <div class="w-8 h-8 bg-indigo-600 rounded flex items-center justify-center">
+                    <i class="fas fa-balance-scale-left text-[10px]"></i>
+                </div>
+                ELEVA<span class="text-indigo-500">DIGITAL</span>
+            </a>
+            <div class="hidden md:flex space-x-10 text-[10px] font-bold tracking-[0.3em] uppercase">
+                <a href="#miss-mongagua" class="hover:text-indigo-400 transition">Miss Mongaguá</a>
+                <a href="#faq" class="hover:text-indigo-400 transition">FAQ Jurídico</a>
+                <a href="#contato" class="hover:text-indigo-400 transition">Contato</a>
+            </div>
+            <a href="https://wa.me/5513992074922" class="hidden md:inline-block bg-white text-black px-6 py-2.5 rounded-full font-bold text-[10px] tracking-widest hover:bg-indigo-600 hover:text-white transition duration-500" aria-label="Falar com Pedro Alan pelo WhatsApp">
+                SOLICITAR PROPOSTA
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative min-h-screen flex flex-col items-center justify-center pt-32 px-6 text-center">
+        <div data-aos="fade-down" class="z-10 mb-8 bg-indigo-500/10 border border-indigo-500/30 px-5 py-2 rounded-full">
+            <span class="text-[10px] font-bold tracking-[0.4em] text-indigo-300 uppercase">Especialista em Engenharia Digital Jurídica</span>
+        </div>
+        <h1 data-aos="zoom-out" data-aos-delay="200" class="text-6xl md:text-[100px] font-extrabold leading-[0.85] tracking-tighter z-10">
+            Escalamos<br> <span class="text-gradient">Autoridades.</span>
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="400" class="text-slate-400 max-w-2xl mt-12 text-lg md:text-xl font-light z-10">
+            Engenharia de software para advogados e gestão de ecossistemas digitais para grandes eventos. Onde a lei encontra a tecnologia.
+        </p>
+        <div data-aos="fade-up" data-aos-delay="600" class="flex flex-col sm:flex-row gap-6 mt-14 z-10">
+            <a href="#miss-mongagua" class="bg-indigo-600 text-white px-12 py-5 rounded-full font-extrabold shadow-xl hover:scale-105 transition">CASE MISS MONGAGUÁ</a>
+            <a href="https://wa.me/5513992074922" class="glass px-12 py-5 rounded-full font-extrabold hover:bg-white/5 transition">FALAR COM PEDRO ALAN</a>
+        </div>
+    </header>
+
+    <section class="py-16 border-y border-white/5 bg-slate-950/60 overflow-hidden">
+        <div class="animate-marquee whitespace-nowrap flex items-center gap-20 md:gap-40 opacity-40">
+            <span class="text-2xl font-bold italic">MADERO</span>
+            <span class="text-2xl font-bold flex gap-2 items-center"><i class="fab fa-aws"></i> AMAZON</span>
+            <span class="text-2xl font-bold uppercase tracking-tighter">Pernambucanas</span>
+            <span class="text-2xl font-bold flex gap-2 items-center"><i class="fas fa-database"></i> SUPABASE</span>
+            <span class="text-2xl font-bold italic">CAEDU</span>
+            <span class="text-2xl font-bold italic">MADERO</span>
+            <span class="text-2xl font-bold flex gap-2 items-center"><i class="fab fa-aws"></i> AMAZON</span>
+        </div>
+    </section>
+
+    <section id="miss-mongagua" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right">
+                <h2 class="text-5xl font-extrabold mb-8">Miss Mongaguá <br><span class="text-indigo-500">2026</span></h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8">
+                    À frente da tecnologia do maior evento da nossa cidade. Desenvolvemos uma plataforma em nuvem capaz de gerenciar milhares de votos simultâneos com segurança militar e design de luxo.
+                </p>
+                <div class="flex gap-8">
+                    <div class="text-center"><div class="text-4xl font-bold">50+</div><p class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Projetos</p></div>
+                    <div class="text-center"><div class="text-4xl font-bold">AWS</div><p class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Nuvem</p></div>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="relative group">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80" alt="Miss Mongaguá Engenharia" class="rounded-[40px] border border-white/10 grayscale group-hover:grayscale-0 transition duration-700">
+                <div class="absolute -bottom-5 -right-5 glass p-6 rounded-2xl"><i class="fas fa-crown text-amber-500 text-3xl"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-32 bg-slate-900/30 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16" data-aos="fade-up">Dúvidas Frequentes</h2>
+            <div class="space-y-4">
+                <div class="faq-item glass rounded-2xl p-6 cursor-pointer" data-aos="fade-up">
+                    <div class="flex justify-between items-center"><h3 class="font-bold">O site segue as normas da OAB?</h3><i class="fas fa-chevron-down text-indigo-500"></i></div>
+                    <div class="faq-content overflow-hidden max-h-0 transition-all"><p class="text-slate-500 pt-4">Sim. Nossa engenharia respeita o provimento 205/2021, focando em autoridade informativa e sobriedade visual.</p></div>
+                </div>
+                <div class="faq-item glass rounded-2xl p-6 cursor-pointer" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-center"><h3 class="font-bold">Como o site ajuda na captação orgânica?</h3><i class="fas fa-chevron-down text-indigo-500"></i></div>
+                    <div class="faq-content overflow-hidden max-h-0 transition-all"><p class="text-slate-500 pt-4">Através de SEO técnico avançado, posicionamos seu escritório para buscas específicas de áreas do direito em sua região.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16">O que dizem nossos clientes</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-3xl" data-aos="fade-up">
+                    <p class="text-slate-400 italic mb-6">"O Pedro transformou nosso escritório. O site não é apenas bonito, ele carrega em milissegundos e passa a confiança que nossos clientes exigem."</p>
+                    <div class="font-bold">Dr. Ricardo Mello</div>
+                    <div class="text-[10px] text-indigo-500 uppercase font-bold tracking-widest">Marques Melo Advogados</div>
+                </div>
+                <div class="glass p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+                    <p class="text-slate-400 italic mb-6">"Precisávamos de estabilidade para milhares de votos no projeto municipal e a Eleva Digital entregou uma infraestrutura impecável."</p>
+                    <div class="font-bold">Comissão Miss Mongaguá</div>
+                    <div class="text-[10px] text-indigo-500 uppercase font-bold tracking-widest">Evento Institucional</div>
+                </div>
+                <div class="glass p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+                    <p class="text-slate-400 italic mb-6">"Trabalho técnico de altíssimo nível. Usar Supabase e AWS nos colocou anos-luz à frente da concorrência."</p>
+                    <div class="font-bold">Eng. Alex Ramirez</div>
+                    <div class="text-[10px] text-indigo-500 uppercase font-bold tracking-widest">Consultoria Tech</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-slate-950 border-t border-white/5 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10 text-center md:text-left">
+            <div>
+                <span class="text-2xl font-extrabold text-white">ELEVA<span class="text-indigo-500">DIGITAL</span></span>
+                <p class="mt-4 text-slate-600 max-w-sm">CNPJ: 34.176.462/0001-86<br>Agenor de Campos, Mongaguá - SP</p>
+            </div>
+            <div class="flex gap-8">
+                <a href="https://www.instagram.com/elevadigitaloficial" target="_blank" class="text-2xl hover:text-indigo-500 transition" aria-label="Instagram da Eleva Digital"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5513992074922" class="text-2xl hover:text-green-500 transition" aria-label="WhatsApp da Eleva Digital"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="text-center mt-12 text-[10px] text-slate-700 tracking-[0.4em] uppercase">© 2026 ELEVA DIGITAL • ENGENHARIA DIGITAL DE ELITE</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+
+        // Navbar Shadow
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) nav.classList.add('bg-slate-950/90', 'py-3');
+            else nav.classList.remove('bg-slate-950/90', 'py-3');
+        });
+    </script>
+</body>
+</html>
